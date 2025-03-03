@@ -38,6 +38,6 @@ fi
 
 # Install dependencies
 echo ">> Upgrading pip."
-pip install --upgrade pip;
+pip3 install --upgrade pip;
 echo ">> Installing requirements."
-pip install -r requirements.txt;
+pip3 install -r requirements.txt;
